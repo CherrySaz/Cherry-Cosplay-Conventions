@@ -1,5 +1,9 @@
-@import url(//db.onlinewebfonts.com/c/cdc8c3de1e6bd5a9a67c6a001f9fedd0?family=Burbank+Big+Condensed);
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Bowlby+One+SC&display=swap');
 
 body {
-    font-family: Georgia;
+    font-family: 'Bowlby One SC', cursive, fantasy;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
