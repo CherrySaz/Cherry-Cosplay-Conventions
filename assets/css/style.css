@@ -74,18 +74,22 @@ h1 {
 }
 /*create hero image zoom effect/*
 
+
 animation-name: hero-zoom; {
 animation-duration: 4s;
-animation-fill-mode: forwards; 
+animation-fill-mode: forwards;
 }
+
 
 @keyframes hero-zoom {
     from {
         transform: scale(1);
     }
 
+
     to {
         transform: scale(1.1);
     }
+
 
 }
