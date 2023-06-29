@@ -1,9 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Bowlby+One+SC&display=swap');
 
-body {
-    font-family: 'Bowlby One SC', cursive, fantasy;
-    font-weight: 300;
+* {
     margin: 0;
     padding: 0;
-    border: 0;
+    border: none;
+}
+
+body {
+    font-family: 'bowlby one', bowlby one sc, sans-serif;
+    font-weight: 300;
+    color: #000;
+}
+
+/*heading*/
+h1 {
+    font-family: bowlby one, sans-serif;
+    font-size: 35px;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    color: #4c51f7;
+}
+
+
+#logo {
+    float: left;
+    font-size: 300%;
+}
+
+#menu li {
+    font-size: 125%;
+    letter-spacing: 5px;
+}
+
+li {
+    list-style-type: none;
+    margin-right: 24px;
+    float: right;
 }
