@@ -5,14 +5,14 @@
 }
 
 body {
-    font-family: 'bowlby one', bowlby one sc, sans-serif;
+    font-family: "bowlby one", "bowlby one sc", sans-serif;
     font-weight: 300;
     color: #000;
 }
 
 /*heading and logo*/
 h1 {
-    font-family: bowlby one, sans-serif;
+    font-family: "bowlby one", sans-serif;
     font-size: 35px;
     text-transform: capitalize;
     letter-spacing: 5px;
@@ -23,13 +23,13 @@ h1 {
 #logo {
     float: left;
     font-size: 300%;
-    position: absolute;
+
 }
 
 #menu {
     font-size: 125%;
     letter-spacing: 5px;
-    position: relative;
+
 
 }
 
@@ -50,8 +50,9 @@ h1 {
 
 }
 
-#menu, #logo {
-    line-height: 75px;
+#menu,
+#logo {
+    line-height: 65px;
 }
 
 .active {
@@ -59,7 +60,7 @@ h1 {
 }
 
 #hero-image {
-    height: 750px;
+    height: 600px;
     width: 100%;
-    background: url(../images/Fortnite\ loading\ screen.jpg) no repeat center center;
+    background: url(../images/Fortnite\ Cosplay\ gang\ with\ Rex\ and\ Brite\ Bomber.jpg) no-repeat center center;
 }
