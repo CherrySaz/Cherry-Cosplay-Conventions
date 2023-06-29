@@ -14,7 +14,7 @@ body {
 h1 {
     font-family: "bowlby one", sans-serif;
     font-size: 35px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     letter-spacing: 5px;
     color: #4c51f7;
 }
@@ -23,15 +23,15 @@ h1 {
 #logo {
     float: left;
     font-size: 300%;
+    margin: left;
 
 }
 
 /*menu styles/*
+
 #menu {
     font-size: 125%;
     letter-spacing: 5px;
-
-
 }
 
 #menu li {
@@ -47,13 +47,12 @@ h1 {
 
 #menu a:hover {
     border-bottom: 2px solid #9d4dbb;
-
-
 }
 
 #menu,
 #logo {
-    line-height: 65px;
+    line-height: 75px;
+    margin:left;
 }
 
 .active {
@@ -71,25 +70,21 @@ h1 {
     height: 600px;
     width: 100%;
     background: url(../images/Fortnite\ Cosplay\ gang\ with\ Rex\ and\ Brite\ Bomber.jpg) no-repeat center center;
-}
+
 /*create hero image zoom effect/*
 
 
-animation-name: hero-zoom; {
+animation-name: hero-zoom; 
 animation-duration: 4s;
 animation-fill-mode: forwards;
 }
 
 
 @keyframes hero-zoom {
-    from {
+    from{
         transform: scale(1);
     }
-
-
-    to {
+    to{
         transform: scale(1.1);
     }
-
-
 }
