@@ -26,6 +26,7 @@ h1 {
 
 }
 
+/*menu styles/*
 #menu {
     font-size: 125%;
     letter-spacing: 5px;
@@ -58,9 +59,33 @@ h1 {
 .active {
     border-bottom: 2px solid #fff;
 }
+/* hero image/*
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
 
 #hero-image {
     height: 600px;
     width: 100%;
     background: url(../images/Fortnite\ Cosplay\ gang\ with\ Rex\ and\ Brite\ Bomber.jpg) no-repeat center center;
+}
+/*create hero image zoom effect/*
+
+animation-name: hero-zoom; {
+animation-duration: 4s;
+animation-fill-mode: forwards; 
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+
 }
