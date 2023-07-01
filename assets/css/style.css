@@ -51,8 +51,10 @@
 
    /*menu styles/*
 
-div .menu {
-  float: right;
+   .menu {
+    float: right;
+   }
+
 
 #menu {
     font-size: 125%;
