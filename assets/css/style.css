@@ -283,4 +283,11 @@ padding-top: 10px;
 
    #your-favourite-fortnite-skin {
     text-align: center;
-   }
+    
+/* about */
+#about1 {
+font-family: "bowlby one", "bowlby one sc", sans-serif;
+font-weight: 200;
+background-color: #9d4dbb;
+}
+}
