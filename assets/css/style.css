@@ -4,7 +4,6 @@
        border: none;
    }
 
-
    body {
        font-family: "bowlby one", "bowlby one sc", sans-serif;
        font-weight: 300;
@@ -52,23 +51,28 @@
 
    /*menu styles/*
 
+div .menu {
+  float: right;
 
 #menu {
     font-size: 125%;
     letter-spacing: 5px;
+    margin-right:20px;
+    float: right;
 }
 
 
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 40px;
+    margin-right: 20x;
+    display: inline-block;
 }
 
 
 #menu a {
     text-decoration: none;
-    color: inherit;
+    color: #9d4dbb;
 }
 
 
@@ -104,17 +108,10 @@
 
 
 /*create hero image zoom effect/*
-
-
-
-
 animation-name: hero-zoom;
 animation-duration: 4s;
 animation-fill-mode: forwards;
 }
-
-
-
 
 @keyframes hero-zoom {
     from{
@@ -149,33 +146,26 @@ animation-fill-mode: forwards;
        border: 3px solid white;
        box-sizing: border-box;
 
-
    }
-
 
    footer {
        height: 175px;
    }
 
-
    .social-media {
        text-align: center;
    }
 
-
    .social-media>li {
        display: inline;
    }
-
 
    .social-media i {
        font-size: 160%;
        margin: 1px;
        padding: 5%;
 
-
    }
-
 
    .photos {
        clear: both;
@@ -184,11 +174,9 @@ animation-fill-mode: forwards;
        column-gap: 0;
    }
 
-
    #photos>img {
        width: 100%;
    }
-
 
    /*media queries*/
 
