@@ -1,53 +1,81 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-
-body {
-    font-family: "bowlby one", "bowlby one sc", sans-serif;
-    font-weight: 300;
-    color: #000;
-}
-
-/*heading and logo*/
-h1 {
-    font-family: "bowlby one", sans-serif;
-    font-size: 35px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    color: #4c51f7;
-}
+   * {
+       margin: 0;
+       padding: 0;
+       border: none;
+   }
 
 
-#logo {
-    float: left;
-    font-size: 300%;
-    margin: left;
+   body {
+       font-family: "bowlby one", "bowlby one sc", sans-serif;
+       font-weight: 300;
+       color: #000;
+   }
 
-}
 
-/*menu styles/*
+   /*heading and logo*/
+   h1 {
+       font-family: "bowlby one", sans-serif;
+       font-size: 35px;
+       text-transform: uppercase;
+       letter-spacing: 5px;
+       color: #4c51f7;
+   }
+
+
+   h2 {
+       font-family: "bowlby one", sans-serif;
+       font-size: 35px;
+       text-transform: uppercase;
+       letter-spacing: 5px;
+       color: white;
+   }
+
+
+   #logo {
+       float: left;
+       font-size: 275%;
+       margin: left;
+   }
+
+
+   .mini-heading {
+       color: #9d4dbb;
+       font-size: 22px;
+       text-align: center;
+   }
+
+
+   .tagline {
+       text-align: center;
+   }
+
+
+   /*menu styles/*
+
 
 #menu {
     font-size: 125%;
     letter-spacing: 5px;
 }
 
+
 #menu li {
-    list-style-type: none;
-    margin-right: 24px;
     float: right;
+    list-style-type: none;
+    margin-right: 40px;
 }
+
 
 #menu a {
     text-decoration: none;
     color: inherit;
 }
 
+
 #menu a:hover {
     border-bottom: 2px solid #9d4dbb;
 }
+
 
 #menu,
 #logo {
@@ -55,10 +83,12 @@ h1 {
     margin:left;
 }
 
+
 .active {
     border-bottom: 2px solid #fff;
 }
 /* hero image/*
+
 
 #hero-outer {
     height: 600px;
@@ -66,18 +96,24 @@ h1 {
     overflow: hidden;
 }
 
+
 #hero-image {
     height: 600px;
     width: 100%;
     background: url(../images/Fortnite\ Cosplay\ gang\ with\ Rex\ and\ Brite\ Bomber.jpg) no-repeat center center;
 
+
 /*create hero image zoom effect/*
 
 
-animation-name: hero-zoom; 
+
+
+animation-name: hero-zoom;
 animation-duration: 4s;
 animation-fill-mode: forwards;
 }
+
+
 
 
 @keyframes hero-zoom {
@@ -89,26 +125,113 @@ animation-fill-mode: forwards;
     }
 }
 
+
 /*meet up information*/
-#meetup-info {
-    background-image: url('../images/Fortnite\ cosplayers\ at\ Gamescom\ 2017.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow: hidden;
-}
+   #meetup-info {
+       background-image: url('../images/Fortnite\ cosplayers\ at\ Gamescom\ 2017.jpg');
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+       width: 100%;
+       overflow: hidden;
+   }
 
- #meetup-info div {
- color: #ffffff;
- width:25%;
- height: 500px;
- float: left;
- font-size: 30px;
- padding-top: 40px;
- text-align: center;
- padding-left: 20px;
- border: 3px solid white;
- box-sizing: border-box;
 
-}
+   #meetup-info div {
+       color: #ffffff;
+       width: 25%;
+       height: 500px;
+       float: left;
+       font-size: 30px;
+       padding-top: 40px;
+       text-align: center;
+       padding-left: 20px;
+       border: 3px solid white;
+       box-sizing: border-box;
+
+
+   }
+
+
+   footer {
+       height: 175px;
+   }
+
+
+   .social-media {
+       text-align: center;
+   }
+
+
+   .social-media>li {
+       display: inline;
+   }
+
+
+   .social-media i {
+       font-size: 160%;
+       margin: 1px;
+       padding: 5%;
+
+
+   }
+
+
+   .photos {
+       clear: both;
+       line-height: 0;
+       column-count: 4;
+       column-gap: 0;
+   }
+
+
+   #photos>img {
+       width: 100%;
+   }
+
+
+   /*media queries*/
+
+
+   /*for lager screens*/
+
+
+   @media screen and (max-width:1200px) {
+       #meetup-info {
+           width: 65%;
+           height: 1200px;
+           margin: 0 auto;
+       }
+   }
+
+
+   #meetup-info {
+       padding: 2% 0;
+       margin: 0;
+
+
+   }
+
+
+   /*for small devices*/
+
+
+   @media screen and (max-width:950px) [ #menu {
+       clear: left;
+       float: left;
+       margin-left: 30px;
+       margin-bottom: 20px;
+       line-height: 25px;
+   }
+
+
+   ] #photos {
+       column-count: 3;
+   }
+
+
+   @media screen and (max-width:800px) {
+       ] #photos {
+           column-count: 2;
+       }
+   }
