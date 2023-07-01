@@ -6,7 +6,7 @@
 
    body {
        font-family: "bowlby one", "bowlby one sc", sans-serif;
-       font-weight: 300;
+       font-weight: 400;
        color: #000;
    }
 
@@ -14,10 +14,12 @@
    /*heading and logo*/
    h1 {
        font-family: "bowlby one", sans-serif;
-       font-size: 35px;
+       font-size: 40px;
        text-transform: uppercase;
        letter-spacing: 5px;
        color: #4c51f7;
+       height:fit-content;
+       padding-left: 50px;
    }
 
 
@@ -48,10 +50,27 @@
        text-align: center;
    }
 
+   /*navigation style*/
+
+   .text-right {
+    text-align:right;
+    list-style-type:none;
+    text-decoration: none;
+    padding-right: 40px;
+    text-shadow:#9d4dbb;
+    
+   }
 
    /*menu styles/*
 
-   .menu {
+
+   .menu, #menu {
+    list-style-type:none;
+    text-decoration: none;
+    position: right
+    width: 100%;
+    text-transform: uppercase;
+    text-align: right;
     float: right;
    }
 
@@ -59,6 +78,7 @@
 #menu {
     font-size: 125%;
     letter-spacing: 5px;
+    text-align:right;
     margin-right:20px;
     float: right;
 }
@@ -68,7 +88,7 @@
     float: right;
     list-style-type: none;
     margin-right: 20x;
-    display: inline-block;
+   text-align:right;
 }
 
 
@@ -108,6 +128,11 @@
     width: 100%;
     background: url(../images/Fortnite\ Cosplay\ gang\ with\ Rex\ and\ Brite\ Bomber.jpg) no-repeat center center;
 
+.about {
+    height:500px;
+    width:100%;
+    background: url(../images/Fortnite\loading\screenjpg) no-repeat center center;
+}
 
 /*create hero image zoom effect/*
 animation-name: hero-zoom;
@@ -224,4 +249,23 @@ animation-fill-mode: forwards;
        ] #photos {
            column-count: 2;
        }
+   }
+
+   #signup-heading {
+    text-align: center;
+    font-size: 22px;
+   
+   }
+
+   .background-lspic {
+    background-color: #9d4dbb;
+    background-image url('../assets/images/Fortnite loading screen.jpg/') no-repeatcenter center;
+    background-size: cover;
+    background-position: center center fixed;
+    
+   }
+
+   #tellus {
+    text-align: center;
+    padding-top: 20px;
    }
