@@ -34,7 +34,7 @@
 
    #logo {
        float: left;
-       font-size: 275%;
+       font-size: 250%;
        margin: left;
    }
 
@@ -102,13 +102,11 @@
     border-bottom: 2px solid #9d4dbb;
 }
 
-
 #menu,
 #logo {
     line-height: 75px;
     margin:left;
 }
-
 
 .active {
     border-bottom: 2px solid #fff;
@@ -127,6 +125,7 @@
     height: 600px;
     width: 100%;
     background: url(../images/Fortnite\ Cosplay\ gang\ with\ Rex\ and\ Brite\ Bomber.jpg) no-repeat center center;
+
 
 .about {
     height:500px;
@@ -257,15 +256,31 @@ animation-fill-mode: forwards;
    
    }
 
+   /*form*/
+
    .background-lspic {
     background-color: #9d4dbb;
-    background-image url('../assets/images/Fortnite loading screen.jpg/') no-repeatcenter center;
+    background-image url('../assets/images/Fortnite loading screen.jpg/') no-repeat center center;
     background-size: cover;
     background-position: center center fixed;
+    overflow:hidden;
+    margin: 0;
+    padding: 0;
+  
     
    }
 
+   #labels {
+text-align: center;
+padding-top: 10px;
+   }
+
    #tellus {
-    text-align: center;
+    text-align: center center fixed;
     padding-top: 20px;
+    
+   }
+
+   #your-favourite-fortnite-skin {
+    text-align: center;
    }
