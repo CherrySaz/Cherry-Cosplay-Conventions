@@ -270,7 +270,15 @@ animation-fill-mode: forwards;
    #signup-heading {
        text-align: center;
        font-size: 22px;
+       margin-left: 30px;
 
+   }
+
+   .telltext {
+    text-align: center;
+    font-family: "bowlby one", "bowlby one sc", sans-serif;
+    font-weight: 400;
+     color: #000;
    }
 
    /*form*/
@@ -281,13 +289,14 @@ animation-fill-mode: forwards;
    }
 
    #tellus {
-       text-align: center center fixed;
+       text-align: center;
        padding-top: 20px;
-
+ 
    }
 
    #your-favourite-fortnite-skin {
        text-align: center;
+       
        /* about */
 
        section {
