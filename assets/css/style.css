@@ -8,7 +8,7 @@
        font-family: "bowlby one", "bowlby one sc", sans-serif;
        font-weight: 400;
        color: #000;
-    background-color: #9d4dbb !important;
+    background-color: #9d4dbb;
    }
 
    /*heading and logo*/
@@ -57,12 +57,12 @@
 
    }
 
-   /*menu styles/*
+   /*menu styles*/
 
    .menu, #menu {
     list-style-type:none;
     text-decoration: none;
-    position: right
+    position: right;
     width: 100%;
     text-transform: uppercase;
     text-align: right;
@@ -107,7 +107,7 @@
 .active {
     border-bottom: 2px solid #fff;
 }
-/* hero image/*
+/* hero image*/
 
 
 #hero-outer {
@@ -123,7 +123,7 @@
     background: url(../images/Fortnite\ Cosplay\ gang\ with\ Rex\ and\ Brite\ Bomber.jpg) no-repeat center center;
     
 
-/*create hero image zoom effect/*
+/*create hero image zoom effect*/
 animation-name: hero-zoom;
 animation-duration: 4s;
 animation-fill-mode: forwards;
@@ -218,7 +218,7 @@ animation-fill-mode: forwards;
    /*media queries*/
 
 
-   /*for lager screens*/
+   /*for larger screens*/
 
 
    @media screen and (max-width:1200px) {
@@ -238,36 +238,40 @@ animation-fill-mode: forwards;
    /*for small devices*/
 
 
-   @media screen and (max-width:950px) [ #menu {
+   @media screen and (max-width:950px) {
+    #menu {
        clear: left;
        float: left;
        margin-left: 30px;
        margin-bottom: 20px;
        line-height: 25px;
    }
+}
 
-
-   ] #photos {
+    #photos {
        column-count: 3;
    }
 
 
    @media screen and (max-width:800px) {
-       ] #photos {
+       #photos {
            column-count: 2;
        }
    }
 
         .about {
-            height: 500px;
+            height: 50px;
             width: 100%;
             text-align: center;
+            margin-left:25px;
+            padding:50px, 0px, 50px, 0px;
         }
         
    #signup-heading {
        text-align: center;
        font-size: 22px;
-       margin-left: 30px;
+       margin-left: 40px;
+       margin-top:30px;
 
    }
 
@@ -283,6 +287,7 @@ animation-fill-mode: forwards;
    #labels {
        text-align: center;
        padding-top: 10px;
+       margin-top:60px;
    }
 
    #tellus {
@@ -293,11 +298,12 @@ animation-fill-mode: forwards;
 
    #your-favourite-fortnite-skin {
        text-align: center;
-       
+   }
        /* about */
+    #background-about {
+        text-align: left;
+        margin-left:8px;
+    }
 
-       section {
-        text-align: center;
-       }
-
-     
+    
+  
