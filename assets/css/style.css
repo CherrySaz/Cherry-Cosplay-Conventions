@@ -54,6 +54,8 @@
        text-decoration: none;
        padding-right: 40px;
        text-shadow: #9d4dbb;
+       font-size:larger;
+       
 
    }
 
@@ -248,9 +250,6 @@ animation-fill-mode: forwards;
    }
 }
 
-    #photos {
-       column-count: 3;
-   }
 
 
    @media screen and (max-width:800px) {
