@@ -8,8 +8,8 @@
        font-family: "bowlby one", "bowlby one sc", sans-serif;
        font-weight: 400;
        color: #000;
+    background-color: #9d4dbb !important;
    }
-
 
    /*heading and logo*/
    h1 {
@@ -17,11 +17,10 @@
        font-size: 40px;
        text-transform: uppercase;
        letter-spacing: 5px;
-       color: #4c51f7;
-       height:fit-content;
+       color: #ffffff;
+       height: fit-content;
        padding-left: 50px;
    }
-
 
    h2 {
        font-family: "bowlby one", sans-serif;
@@ -31,20 +30,17 @@
        color: white;
    }
 
-
    #logo {
        float: left;
        font-size: 250%;
        margin: left;
    }
 
-
    .mini-heading {
-       color: #9d4dbb;
+       color: #ffffff;
        font-size: 22px;
        text-align: center;
    }
-
 
    .tagline {
        text-align: center;
@@ -53,16 +49,15 @@
    /*navigation style*/
 
    .text-right {
-    text-align:right;
-    list-style-type:none;
-    text-decoration: none;
-    padding-right: 40px;
-    text-shadow:#9d4dbb;
-    
+       text-align: right;
+       list-style-type: none;
+       text-decoration: none;
+       padding-right: 40px;
+       text-shadow: #9d4dbb;
+
    }
 
    /*menu styles/*
-
 
    .menu, #menu {
     list-style-type:none;
@@ -251,43 +246,39 @@ animation-fill-mode: forwards;
    }
 
    #signup-heading {
-    text-align: center;
-    font-size: 22px;
-   
+       text-align: center;
+       font-size: 22px;
+
    }
 
    /*form*/
 
    .background-lspic {
-    background-color: #9d4dbb;
-    background-image url('../assets/images/Fortnite loading screen.jpg/') no-repeat center center;
-    background-size: cover;
-    background-position: center center fixed;
-    overflow:hidden;
-    margin: 0;
-    padding: 0;
-  
-    
+       background-color: #9d4dbb;
+
+       background-size: cover;
+       background-position: left;
+       margin: left;
+
    }
 
    #labels {
-text-align: center;
-padding-top: 10px;
+       text-align: center;
+       padding-top: 10px;
    }
 
    #tellus {
-    text-align: center center fixed;
-    padding-top: 20px;
-    
+       text-align: center center fixed;
+       padding-top: 20px;
+
    }
 
    #your-favourite-fortnite-skin {
-    text-align: center;
-    
-/* about */
-#about1 {
-font-family: "bowlby one", "bowlby one sc", sans-serif;
-font-weight: 200;
-background-color: #9d4dbb;
-}
-}
+       text-align: center;
+       /* about */
+
+       section {
+        text-align: center;
+       }
+
+     
