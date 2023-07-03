@@ -55,6 +55,19 @@ There were a few challenges i faced within the code itself prior to validating w
 
 This website was deployed using Github.
 
+The steps that were followed:
+Go to Github
+Click settings
+select pages in the left column
+Scroll to 'Build and Deployment'
+Go to sub-section and select 'branch'
+From the drop down menu where it's set on 'none' click and change to 'main'
+click 'save'
+Wait a few moments for the link to be deployed. If it doesn't pop up after 30 seconds, refresh the page.
+Once done, a pop up message will appear.
+
+Your site is live at:  https://cherrysaz.github.io/Cherry-Cosplay-Conventions/
+
 
 
 #### Styling
