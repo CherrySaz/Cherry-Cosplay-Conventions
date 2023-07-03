@@ -14,6 +14,14 @@ The website logo also appears on every page and is clcikable. When clicked, this
 
 Colourful and easy to navigate, grabbing interest of Fortnite gamers in particular by using colours from the Fortnite colour palette, a simple but effective first website.
 
+# myscreenshot
+
+
+
+
+
+
+
 # User Experience (UX)
 
 ### The Home Page
