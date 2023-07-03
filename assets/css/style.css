@@ -1,10 +1,4 @@
-   * {
-       margin: 0;
-       padding: 0;
-       border: none;
-   }
-
-   body {
+body {
        font-family: "bowlby one", "bowlby one sc", sans-serif;
        font-weight: 400;
        color: #000;
@@ -32,9 +26,7 @@
 
    #logo {
        float: left;
-       font-size: 250%;
-       margin: left;
-    
+       font-size: 250%; 
    }
 
    .mini-heading {
@@ -54,10 +46,7 @@
        list-style-type: none;
        text-decoration: none;
        padding-right: 40px;
-       text-shadow: #9d4dbb;
        font-size:larger;
-       
-
    }
 
    /*menu styles*/
@@ -65,13 +54,11 @@
    .menu, #menu {
     list-style-type:none;
     text-decoration: none;
-    position: right;
     width: 100%;
     text-transform: uppercase;
     text-align: right;
     float: right;
    }
-
 
 #menu {
     font-size: 125%;
@@ -81,20 +68,17 @@
     float: right;
 }
 
-
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 20x;
+    margin-right: 20px;
    text-align:right;
 }
-
 
 #menu a {
     text-decoration: none;
     color: #9d4dbb;
 }
-
 
 #menu a:hover {
     border-bottom: 2px solid #9d4dbb;
@@ -104,7 +88,6 @@
 #menu,
 #logo {
     line-height: 75px;
-    margin:left;
 }
 
 .active {
@@ -112,13 +95,11 @@
 }
 /* hero image*/
 
-
 #hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
 }
-
 
 #hero-image {
     height: 600px;
@@ -150,7 +131,6 @@ animation-fill-mode: forwards;
        width: 100%;
        overflow: hidden;
    }
-
 
    #meetup-info div {
        color: #ffffff;
@@ -223,7 +203,6 @@ animation-fill-mode: forwards;
 
    /*for larger screens*/
 
-
    @media screen and (max-width:1200px) {
        #meetup-info {
            width: 65%;
@@ -250,8 +229,6 @@ animation-fill-mode: forwards;
        line-height: 25px;
    }
 }
-
-
 
    @media screen and (max-width:800px) {
        #photos {
