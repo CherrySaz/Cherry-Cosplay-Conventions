@@ -103,9 +103,9 @@ body {
 
 #hero-image {
     height: 600px;
-    width: 100%;
+    width: 0%;
     background: url(../images/Fortnite\ Cosplay\ gang\ with\ Rex\ and\ Brite\ Bomber.jpg) no-repeat center center;
-    border-radius: 600px;
+   
     
 
 /*create hero image zoom effect*/
