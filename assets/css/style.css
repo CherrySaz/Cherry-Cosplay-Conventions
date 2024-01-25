@@ -125,14 +125,15 @@ animation-fill-mode: forwards;
 
 /*meet up information*/
    #meetup-info {
-       background-image: url('../images/Fortnite\ cosplayers\ at\ Gamescom\ 2017.jpg');
+       background: url('assets/images/Fortnite-Cosplay-group-at-E3-2018.jpg');
        background-repeat: no-repeat;
        background-size: cover;
        background-position: center;
        width: 100%;
        overflow: hidden;
-   }
+    }
 
+   
    #meetup-info div {
        color: #ffffff;
        width: 25%;
@@ -221,7 +222,7 @@ animation-fill-mode: forwards;
    /*for small devices*/
 
 
-   @media screen and (max-width:950px) {
+   @media screen and (max-width:100%) {
     #menu {
        clear: left;
        float: left;
@@ -231,7 +232,7 @@ animation-fill-mode: forwards;
    }
 }
 
-   @media screen and (max-width:800px) {
+   @media screen and (max-width:100%) {
        #photos {
            column-count: 2;
        }
@@ -247,8 +248,9 @@ animation-fill-mode: forwards;
         }
         
    #signup-heading {
+       
        text-align: center;
-       font-size: 22px;
+       font-size: 28px;
        margin-left: 40px;
        margin-top:30px;
 
