@@ -1,6 +1,8 @@
 # Welcome to my very first website!
 
-# Overview
+<img src="assets/images/Responsive screenshot.png" alt="Homepage">
+
+### Overview
 My very first website, Cherry Cosplay Conventions, is a website aimed at gamers, and people who enjoy cosplay and meeting up. Specifically designed for players of the iconic video game 'Fortnite' by Epic Games, it is targeted at people of any age group, young or old and who love to dress up.
 
 With more and more people around the world enjoying cosplay, wanting to go out to events and making new friends, I wanted to create the perfect platform for gamers and people alike to be able to do this. It oozes fun, happiness and excitement.  The aim is to get gamers doing something that they'd enjoy and actually seeing faces whilst making friends instead of just receiving friend requests via the game itself and hide away behind the headset. With Mental health issues being so widely spoken about in today's society, is so important to enjoy life. Every being deserves to have fun and shake the stresses of every day life away.
@@ -10,35 +12,39 @@ With more and more people around the world enjoying cosplay, wanting to go out t
 Consisting of four clickable menu links, my website has a home page, an 'about', a photo / gallery section and a newsletter sign up form. 
 All of the menu links on the navigation bar appear on every page.
 
+<img src="assets/images/menu.png" alt="Menu navigation">
+
+
 The website logo also appears on every page and is clcikable. When clicked, this will take you back to the home screen no matter which page you are on.
 
 Colourful and easy to navigate, grabbing interest of Fortnite gamers in particular by using colours from the Fortnite colour palette, a simple but effective first website.
-
-# myscreenshot
-
-
-
-
-
 
 
 # User Experience (UX)
 
 ### The Home Page
 
-The home page includes a colourfil image of a group of cosplayers, a small message and upcoming convention dates, everything needed to grab the users attention so that they can explore further through the site. I wanted to get the user engaged immediately with a website that will have them making plans to attend straight away.
+The home page includes a colourful image of a group of cosplayers, a small message and upcoming convention dates, everything needed to grab the users attention so that they can explore further through the site. I wanted to get the user engaged immediately with a website that will have them making plans to attend straight away.
 
 ### The About Section
 
 I wanted to provide the user with some insight of how my website came about, to show them that it really is important to get out and about, meet new people, but most importantly, have fun.
 
+<img src="assets/images/About-screenshot.png" alt="About Section">
+
+
+
 ### The Photos Section
 
 This section shows the user some cosplay photos from previous meets, showing them how much fun it is, but also, that the site is trustworthy by showing people that have met already through the site, which is a very important factor.
 
+<img src="assets/images/photossectionscreenshot.png" alt="Photos of Cosplayers">
+
 ### The Newsletter sign up
 
 Providing the user with an opportunity to register interest to keep up to date with a bi-monthly newsletter so that they can get all the latest news direct to their inbox.
+
+<img src="assets/images/newsletterscreenshot.png" alt="Register for newsletter">
 
 ## Testing
 
