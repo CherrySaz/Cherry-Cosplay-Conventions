@@ -71,6 +71,7 @@ body {
 #menu li {
     float: right;
     list-style-type: none;
+    color: #9d4dbb;
     margin-right: 20px;
    text-align:right;
 }
@@ -125,26 +126,36 @@ animation-fill-mode: forwards;
 
 /*meet up information*/
    #meetup-info {
-       background: url('assets/images/Fortnite-Cosplay-group-at-E3-2018.jpg');
-       background-repeat: no-repeat;
-       background-size: cover;
-       background-position: center;
+       background: url('../images/Fortnite-Cosplay-group-at-E3-2018.jpg') no-repeat center / cover;
        width: 100%;
        overflow: hidden;
+       display: flex;
+       flex-wrap: wrap;
     }
 
+
+    #meetup-info h2 {
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+        color: whitesmoke; 
+    }
    
    #meetup-info div {
-       color: #ffffff;
+       color:whitesmoke;
        width: 25%;
-       height: 500px;
+       height: 400px;
        float: left;
-       font-size: 30px;
+       font-size: 20px;
        padding-top: 40px;
        text-align: center;
        padding-left: 20px;
-       border: 3px solid white;
+       border: 3px solid rgb(21, 19, 19);
        box-sizing: border-box;
+       overflow: hidden;
+       display: flex;
+       flex-wrap: wrap;
+
 
    }
 
@@ -176,6 +187,7 @@ animation-fill-mode: forwards;
 
    #photos>img {
        width: 100%;
+       line-height: 1em;
    }
    
    .solid-submit {
@@ -222,7 +234,7 @@ animation-fill-mode: forwards;
    /*for small devices*/
 
 
-   @media screen and (max-width:100%) {
+   @media screen and (max-width:768px) {
     #menu {
        clear: left;
        float: left;
@@ -232,6 +244,11 @@ animation-fill-mode: forwards;
    }
 }
 
+
+   #meetup-info {
+    padding: 2% 0;
+    margin: 0;
+}
    @media screen and (max-width:100%) {
        #photos {
            column-count: 2;
@@ -285,6 +302,5 @@ animation-fill-mode: forwards;
         text-align: left;
         margin-left:8px;
     }
-
     
   
