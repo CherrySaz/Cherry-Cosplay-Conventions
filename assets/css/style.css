@@ -231,14 +231,22 @@ animation-fill-mode: forwards;
 
    @media screen and (max-width:1200px) {
        #meetup-info {
-           width: 65%;
+           width: 65%%;
            height: 1200px;
            margin: 0 auto;
+           text-align: center;
+           overflow: hidden;
        }
 
        #logo {
         text-align: left;
        }
+
+       #meetup-info h2 {
+        white-space: nowrap;
+        overflow: hidden; 
+        text-overflow: ellipsis;
+    }
     }
 
 
@@ -252,11 +260,11 @@ animation-fill-mode: forwards;
 
    @media screen and (max-width:950px) {
     #menu {
-       clear: left;
-       float: left;
-       margin-left: 30px;
-       margin-bottom: 20px; 
-       line-height: 25px;
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
    }
 
    #cover-text {
@@ -270,9 +278,9 @@ animation-fill-mode: forwards;
 
 
    #meetup-info {
+    width: 90%;
     padding: 2% 0;
-    margin: 0;
-    width: 100%;
+    margin: 0 auto;
 }
 
 /* For smaller devices*/
@@ -281,14 +289,14 @@ animation-fill-mode: forwards;
 @media screen and (max-width: 767px) {
     #meetup-info {
         width: 90%;
-        height: 1200px;
+        height: auto;
         margin: 0 auto;
     }
 
 
     #meetup-info div {
         width: 100%;
-        box-sizing: border-box; 
+        box-sizing: border-box;
         margin-bottom: 10px;
     }
 
