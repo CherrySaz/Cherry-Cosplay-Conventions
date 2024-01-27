@@ -140,22 +140,30 @@ animation-fill-mode: forwards;
         overflow: hidden;
         color: whitesmoke;
         font-size: larger;
+        text-align: center;
     }
 
-    
+    #meetup-info h3 {
+        font-size: larger;
+        text-align: center;
+        margin: 10px 0;
+        padding: 15px 0;
+    }
+
+
    #meetup-info div {
        color:whitesmoke;
        width: 25%;
        height: 500px;
-       float: left;
-       font-size: 22px;
-       padding: 20,0,0,20;
+       font-size: 24px;
        text-align: center;
        border: 3px solid rgba(21, 19, 19, 0.1);
        box-sizing: border-box;
        overflow: hidden;
-       display: flex;
+       flex-direction: column;
        flex-wrap: wrap;
+       justify-content: space-between;
+       margin: 0px;
    }
 
    footer {
