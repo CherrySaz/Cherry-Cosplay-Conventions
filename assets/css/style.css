@@ -126,7 +126,7 @@ animation-fill-mode: forwards;
 
 /*meet up information*/
    #meetup-info {
-       background: url('../images/Fortnite-Cosplay-group-at-E3-2018.jpg') no-repeat center / cover;
+       background: url('../images/;;ama-fortnite.png') no-repeat center / cover;
        width: 100%;
        overflow: hidden;
        display: flex;
@@ -144,7 +144,7 @@ animation-fill-mode: forwards;
    #meetup-info div {
        color:whitesmoke;
        width: 25%;
-       height: 400px;
+       height: 500px;
        float: left;
        font-size: 20px;
        padding-top: 40px;
@@ -241,6 +241,7 @@ animation-fill-mode: forwards;
        margin-left: 30px;
        margin-bottom: 20px;
        line-height: 25px;
+       width: 100%;
    }
 }
 
