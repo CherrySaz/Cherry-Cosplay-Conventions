@@ -2,7 +2,7 @@ body {
        font-family: "bowlby one", "bowlby one sc", sans-serif;
        font-weight: 400;
        color: #000000;
-    background-color: #ffffff;
+    background-color: #faf9f6;
    }
 
    /*heading and logo*/
@@ -130,7 +130,9 @@ animation-fill-mode: forwards;
        width: 100%;
        overflow: hidden;
        display: flex;
+       border: 3px solid rgba(21, 19, 19, 0.1);
        flex-wrap: wrap;
+       box-sizing: border-box;
     }
 
 
@@ -153,11 +155,12 @@ animation-fill-mode: forwards;
 
    #meetup-info div {
        color:whitesmoke;
+       background-color: rgba(0,0, 0, 0.6);
        width: 25%;
-       height: 500px;
+       height: 400px;
+       float: left;
        font-size: 24px;
        text-align: center;
-       border: 3px solid rgba(21, 19, 19, 0.1);
        box-sizing: border-box;
        overflow: hidden;
        flex-direction: column;
@@ -197,9 +200,10 @@ animation-fill-mode: forwards;
        line-height: 1em;
    }
    
-   .solid-submit {
-    background-color: #ffffff;
-    color: black;
+   button, .solid-submit {
+    background-color: #9d4dbb;
+    color: #ffffff;
+    border: 2px solid #000;
     cursor: pointer;
     text-align: center;
     font-size:20px;
@@ -208,16 +212,17 @@ animation-fill-mode: forwards;
     display: inline-block;
    }
 
-   .solid-reset {
-       background-color: #ffffff;
-       color: black;
-       cursor: pointer;
-       text-align: center;
-       font-size: 20px;
-       font-family: "bowlby one", "bowlby one sc", sans-serif;
-       margin-left:4px;
-       padding-top: 3px;
-       display: inline-block;
+   button, .solid-reset {
+    background-color: #9d4dbb;
+    color: #ffffff;
+    border: 2px solid #000;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    font-family: "bowlby one", "bowlby one sc", sans-serif;
+    margin-left:4px;
+    padding-top: 3px;
+    display: inline-block;
    }       
    /*media queries*/
 
@@ -230,7 +235,11 @@ animation-fill-mode: forwards;
            height: 1200px;
            margin: 0 auto;
        }
-   }
+
+       #logo {
+        text-align: left;
+       }
+    }
 
 
    #meetup-info {
@@ -238,17 +247,24 @@ animation-fill-mode: forwards;
        margin: 0;
    }
 
-   /*for small devices*/
+   /*for medium devices*/
 
 
-   @media screen and (max-width:768px) {
+   @media screen and (max-width:950px) {
     #menu {
        clear: left;
        float: left;
        margin-left: 30px;
-       margin-bottom: 20px;
+       margin-bottom: 20px; 
        line-height: 25px;
-       width: 100%;
+   }
+
+   #cover-text {
+    left: 0;
+   }
+
+   #logo {
+    text-align: left;
    }
 }
 
@@ -256,10 +272,36 @@ animation-fill-mode: forwards;
    #meetup-info {
     padding: 2% 0;
     margin: 0;
+    width: 100%;
 }
-   @media screen and (max-width:100%) {
+
+/* For smaller devices*/
+
+
+@media screen and (max-width: 767px) {
+    #meetup-info {
+        width: 100%;
+        height: 1200px
+    }
+
+
+    #meetup-info div {
+        width: 100%;
+        box-sizing: border-box; 
+        margin-bottom: 20px;
+    }
+
+
+    #meetup-info h2,
+    #meetup-info h3,
+    #meetup-info div {
+        font-size: 16px;
+        width: 100%;
+    }
+
+
        #photos {
-           column-count: 2;
+           column-count: 1;
        }
    }
 
@@ -275,10 +317,9 @@ animation-fill-mode: forwards;
    #signup-heading {
        
        text-align: center;
-       font-size: 28px;
-       margin-left: 40px;
-       margin-top:30px;
-
+       font-size: 24px;
+       margin-left: 10px;
+       margin: top 20px;
    }
 
    .telltext {
@@ -304,6 +345,14 @@ animation-fill-mode: forwards;
 
    #your-favourite-fortnite-skin {
        text-align: center;
+   }
+
+   .solid-submit, .solid-reset {
+    font-size: 18px;
+    margin-top: 10px;
+    background-color: #9d4dbb;
+    color: #ffffff;
+    border: 2px solid #000;
    }
        /* about */
     #background-about {
