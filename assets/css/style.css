@@ -138,25 +138,24 @@ animation-fill-mode: forwards;
         display: flex;
         flex-wrap: wrap;
         overflow: hidden;
-        color: whitesmoke; 
+        color: whitesmoke;
+        font-size: larger;
     }
-   
+
+    
    #meetup-info div {
        color:whitesmoke;
        width: 25%;
        height: 500px;
        float: left;
-       font-size: 20px;
-       padding-top: 40px;
+       font-size: 22px;
+       padding: 20,0,0,20;
        text-align: center;
-       padding-left: 20px;
-       border: 3px solid rgb(21, 19, 19);
+       border: 3px solid rgba(21, 19, 19, 0.1);
        box-sizing: border-box;
        overflow: hidden;
        display: flex;
        flex-wrap: wrap;
-
-
    }
 
    footer {
