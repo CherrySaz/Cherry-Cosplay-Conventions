@@ -59,7 +59,9 @@ Testing and validation carried out for all HTML pages with no errors returned vi
 
 Testing and validation carried out for  CSS  with no errors returned via [W3C](https://jigsaw.w3.org/css-validator/)
 
+
 <img src="assets/images/w3c-css-validation.png" alt="W3c CSS validator">
+
 
 My website was also put through Lighthouse tool in Chrome for Developers. All pages returned 100% accessability.
 
@@ -76,7 +78,7 @@ On going back to revisit my project, I had other bugs to fix which were:
 
 • fixing the submit and reset buttons so they work correctly
 
-• Adjusting colours to make the site 'easier on the eye'. The background was changed from the Llama purple colour to an off white colour. I had changed it to white initially during the fix, however, I found even though a neautral colour, it was actually too bright so i decided to tone it down slightly.
+• Adjusting colours to make the site 'easier on the eye'. The background was changed from the Llama purple colour to an off white colour. I had changed it to white initially during the fix, however, I found even though a neutral colour, it was actually too bright so i decided to tone it down slightly.
 
 • General tidying up to improve the overall accessability of the website.
 
