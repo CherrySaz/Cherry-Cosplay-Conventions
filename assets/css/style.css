@@ -1,113 +1,113 @@
 body {
-       font-family: "bowlby one", "bowlby one sc", sans-serif;
-       font-weight: 400;
-       color: #000000;
-    background-color: #faf9f6;
-   }
+    font-family: "bowlby one", "bowlby one sc", sans-serif;
+    font-weight: 400;
+    color: #000000;
+ background-color: #faf9f6;
+}
 
-   /*heading and logo*/
-   h1 {
-       font-family: "bowlby one", sans-serif;
-       font-size: 24px;
-       text-transform: uppercase;
-       letter-spacing: 5px;
-       color: #9d4dbb;
-       height: fit-content;
-       padding-left: 50px;
-   }
-
-   h2 {
-       font-family: "bowlby one", sans-serif;
-       font-size: 16px;
-       text-transform: uppercase;
-       letter-spacing: 5px;
-       color: #9d4dbb
-   }
-
-   #logo {
-       float: left;
-       font-size: 250%; 
-   }
-
-   .mini-heading {
-       color: #9d4dbb;
-       font-size: 22px;
-       text-align: center;
-   }
-
-   .tagline {
-       text-align: center;
-   }
-
-   /*navigation style*/
-
-   .text-right {
-       text-align: right;
-       list-style-type: none;
-       text-decoration: none;
-       padding-right: 40px;
-       font-size:larger;
-   }
-
-   /*menu styles*/
-
-   .menu, #menu {
-    list-style-type:none;
-    text-decoration: none;
-    width: 100%;
+/*heading and logo*/
+h1 {
+    font-family: "bowlby one", sans-serif;
+    font-size: 24px;
     text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #9d4dbb;
+    height: fit-content;
+    padding-left: 50px;
+}
+
+h2 {
+    font-family: "bowlby one", sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #9d4dbb
+}
+
+#logo {
+    float: left;
+    font-size: 250%; 
+}
+
+.mini-heading {
+    color: #9d4dbb;
+    font-size: 22px;
+    text-align: center;
+}
+
+.tagline {
+    text-align: center;
+}
+
+/*navigation style*/
+
+.text-right {
     text-align: right;
-    float: right;
-   }
+    list-style-type: none;
+    text-decoration: none;
+    padding-right: 40px;
+    font-size:larger;
+}
+
+/*menu styles*/
+
+.menu, #menu {
+ list-style-type:none;
+ text-decoration: none;
+ width: 100%;
+ text-transform: uppercase;
+ text-align: right;
+ float: right;
+}
 
 #menu {
-    font-size: 125%;
-    letter-spacing: 5px;
-    text-align:right;
-    margin-right:20px;
-    float: right;
+ font-size: 120%;
+ letter-spacing: 5px;
+ text-align:right;
+ margin-right:20px;
+ float: right;
 }
 
 #menu li {
-    float: right;
-    list-style-type: none;
-    color: #9d4dbb;
-    margin-right: 20px;
-   text-align:right;
+ float: right;
+ list-style-type: none;
+ color: #9d4dbb;
+ margin-right: 20px;
+text-align:right;
 }
 
 #menu a {
-    text-decoration: none;
-    color: #9d4dbb;
+ text-decoration: none;
+ color: #9d4dbb;
 }
 
 #menu a:hover {
-    border-bottom: 2px solid #9d4dbb;
-    cursor: pointer;
+ border-bottom: 2px solid #9d4dbb;
+ cursor: pointer;
 }
 
 #menu,
 #logo {
-    line-height: 75px;
+ line-height: 75px;
 }
 
 .active {
-    border-bottom: 2px solid #fff;
+ border-bottom: 2px solid #fff;
 }
 /* hero image*/
 
 #hero-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
+ height: 600px;
+ width: 100%;
+ overflow: hidden;
 }
 
 #hero-image {
-    height: 600px;
-    width: 0%;
-    background: url(../images/Fortnite\ Cosplay\ gang\ with\ Rex\ and\ Brite\ Bomber.jpg) no-repeat center center;
-   
-    
+ height: 600px;
+ width: 0%;
+ background: url(../images/Fortnite\ Cosplay\ gang\ with\ Rex\ and\ Brite\ Bomber.jpg) no-repeat center center;
+
+ 
 
 /*create hero image zoom effect*/
 animation-name: hero-zoom;
@@ -116,256 +116,265 @@ animation-fill-mode: forwards;
 }
 
 @keyframes hero-zoom {
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.1);
-    }
+ from{
+     transform: scale(1);
+ }
+ to{
+     transform: scale(1.1);
+ }
 }
 
 /*meet up information*/
-   #meetup-info {
-       background: url('../images/;;ama-fortnite.png') no-repeat center / cover;
-       width: 100%;
-       overflow: hidden;
-       display: flex;
-       border: 3px solid rgba(21, 19, 19, 0.1);
-       flex-wrap: wrap;
-       box-sizing: border-box;
-    }
+#meetup-info {
+    background: url('../images/;;ama-fortnite.png') no-repeat center / cover;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    border: 3px solid rgba(21, 19, 19, 0.1);
+    flex-wrap: wrap;
+    box-sizing: border-box;
+ }
 
 
-    #meetup-info h2 {
-        display: flex;
-        flex-wrap: wrap;
+ #meetup-info h2 {
+     display: flex;
+     flex-wrap: wrap;
+     overflow: hidden;
+     color: whitesmoke;
+     font-size: larger;
+     text-align: center;
+ }
+
+ #meetup-info h3 {
+     font-size: larger;
+     text-align: center;
+     margin: 10px 0;
+     padding: 15px 0;
+ }
+
+
+#meetup-info div {
+    color:whitesmoke;
+    background-color: rgba(0,0, 0, 0.6);
+    width: 25%;
+    height: 400px;
+    float: left;
+    font-size: 24px;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+footer {
+    height: 175px;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media>li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 160%;
+    margin: 1px;
+    padding: 5%;
+
+}
+
+.photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos>img {
+    width: 100%;
+    line-height: 1em;
+}
+
+button, .solid-submit {
+ background-color: #9d4dbb;
+ color: #ffffff;
+ border: 2px solid #000;
+ cursor: pointer;
+ text-align: center;
+ font-size:20px;
+ font-family: "bowlby one", "bowlby one sc", sans-serif;
+ padding-top: 3px;
+ display: inline-block;
+}
+
+button, .solid-reset {
+ background-color: #9d4dbb;
+ color: #ffffff;
+ border: 2px solid #000;
+ cursor: pointer;
+ text-align: center;
+ font-size: 20px;
+ font-family: "bowlby one", "bowlby one sc", sans-serif;
+ margin-left:4px;
+ padding-top: 3px;
+ display: inline-block;
+}       
+/*media queries*/
+
+
+/*for larger screens*/
+
+@media screen and (max-width:1200px) {
+    #meetup-info {
+        width: auto;
+        height: 1200px;
+        margin: 0 auto;
+        text-align: center;
         overflow: hidden;
-        color: whitesmoke;
-        font-size: larger;
-        text-align: center;
     }
 
-    #meetup-info h3 {
-        font-size: larger;
-        text-align: center;
-        margin: 10px 0;
-        padding: 15px 0;
+    #logo {
+     text-align: left;
     }
 
-
-   #meetup-info div {
-       color:whitesmoke;
-       background-color: rgba(0,0, 0, 0.6);
-       width: 25%;
-       height: 400px;
-       float: left;
-       font-size: 24px;
-       text-align: center;
-       box-sizing: border-box;
-       overflow: hidden;
-       flex-direction: column;
-       flex-wrap: wrap;
-       justify-content: space-between;
-       margin: 0px;
-   }
-
-   footer {
-       height: 175px;
-   }
-
-   .social-media {
-       text-align: center;
-   }
-
-   .social-media>li {
-       display: inline;
-   }
-
-   .social-media i {
-       font-size: 160%;
-       margin: 1px;
-       padding: 5%;
-
-   }
-
-   .photos {
-       clear: both;
-       line-height: 0;
-       column-count: 4;
-       column-gap: 0;
-   }
-
-   #photos>img {
-       width: 100%;
-       line-height: 1em;
-   }
-   
-   button, .solid-submit {
-    background-color: #9d4dbb;
-    color: #ffffff;
-    border: 2px solid #000;
-    cursor: pointer;
-    text-align: center;
-    font-size:20px;
-    font-family: "bowlby one", "bowlby one sc", sans-serif;
-    padding-top: 3px;
-    display: inline-block;
-   }
-
-   button, .solid-reset {
-    background-color: #9d4dbb;
-    color: #ffffff;
-    border: 2px solid #000;
-    cursor: pointer;
-    text-align: center;
-    font-size: 20px;
-    font-family: "bowlby one", "bowlby one sc", sans-serif;
-    margin-left:4px;
-    padding-top: 3px;
-    display: inline-block;
-   }       
-   /*media queries*/
+    #meetup-info h2 h3 {
+     width: auto;
+     overflow: hidden; 
+ }
+ }
 
 
-   /*for larger screens*/
+#meetup-info {
+    padding: 2% 0;
+    margin: 0;
+}
 
-   @media screen and (max-width:1200px) {
-       #meetup-info {
-           width: 65%;
-           height: 1200px;
-           margin: 0 auto;
-           text-align: center;
-           overflow: hidden;
-       }
-
-       #logo {
-        text-align: left;
-       }
-
-       #meetup-info h2 {
-        white-space: nowrap;
-        overflow: hidden; 
-        text-overflow: ellipsis;
-    }
-    }
+/*for medium devices*/
 
 
-   #meetup-info {
-       padding: 2% 0;
-       margin: 0;
-   }
+@media screen and (max-width:950px) {
+ #menu {
+     clear: left;
+     float: left;
+     margin-left: 30px;
+     margin-bottom: 20px;
+     line-height: 25px;
+}
 
-   /*for medium devices*/
+#cover-text {
+ left: 0;
+}
 
-
-   @media screen and (max-width:950px) {
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-   }
-
-   #cover-text {
-    left: 0;
-   }
-
-   #logo {
-    text-align: left;
-   }
+#logo {
+ text-align: left;
+}
 }
 
 
-   #meetup-info {
-    width: 90%;
-    padding: 2% 0;
-    margin: 0 auto;
+#meetup-info {
+ width: 90%;
+ padding: 2% 0;
+ margin: 0 auto;
 }
 
 /* For smaller devices*/
 
 
 @media screen and (max-width: 768px) {
-    #menu {
-        height: 1200;
-        margin-left: 90px;
-        margin-bottom: 20px;
-        line-height: 25px;
-   }
+ #menu {
+     width: 90%;
+     height: 1200px;
+     margin: auto;
+     line-height: 25px;
+     padding: 2% 5px;
+}
 
-    #meetup-info div {
-        width: 100%;
-        box-sizing: border-box;
-        margin-bottom: 10px;
+#menu li {
+ clear: left;
+ float: left;
+}
+
+ #meetup-info div {
+     width: 90%;
+     height: 25%;
+     display: flex;
+     flex-wrap: wrap;
+     text-align: center;
+     box-sizing: border-box;
+     margin: 0 auto;
+     padding: 2% 5px;
+     font-size: 14px;
+     text-align: justify;
+ }
+
+ #meetup-info h2 {
+     text-align: center;    
+ }
+
+
+    #photos {
+        column-count: 2;
     }
+}
 
+     #about {
+         height: 50px;
+         width: 100%;
+         text-align: center;
+         margin-left:25px;
+         box-sizing: border-box;
+     }
 
-    #meetup-info h2,
-    #meetup-info h3,
-    #meetup-info div {
-        font-size: 16px;
-    }
-
-
-       #photos {
-           column-count: 2;
-       }
-   }
-
-        .about {
-            height: 50px;
-            width: 100%;
-            text-align: center;
-            margin-left:25px;
-            box-sizing: border-box;
-            
-        }
-        
-   #signup-heading {
-       
-       text-align: center;
-       font-size: 24px;
-       margin-left: 10px;
-       margin: top 20px;
-   }
-
-   .telltext {
-    text-align: center;
-    font-family: "bowlby one", "bowlby one sc", sans-serif;
-    font-weight: 400;
-     color: #000;
-   }
-
-   /*form*/
-
-   #labels {
-       text-align: center;
-       padding-top: 10px;
-       margin-top:60px;
-   }
-
-   #tellus {
-       text-align: center;
-       padding-top: 20px;
- 
-   }
-
-   #your-favourite-fortnite-skin {
-       text-align: center;
-   }
-
-   .solid-submit, .solid-reset {
-    font-size: 18px;
-    margin-top: 10px;
-    background-color: #9d4dbb;
-    color: #ffffff;
-    border: 2px solid #000;
-   }
-       /* about */
-    #background-about {
-        text-align: left;
-        margin-left:8px;
-    }
+     
+#signup-heading {
     
-  
+    text-align: center;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.telltext {
+ text-align: center;
+ font-family: "bowlby one", "bowlby one sc", sans-serif;
+ font-weight: 400;
+  color: #000;
+}
+
+/*form*/
+
+#labels {
+    text-align: center;
+    padding-top: 10px;
+    margin-top:60px;
+}
+
+#tellus {
+    text-align: center;
+    padding-top: 20px;
+    width: 90%;
+    height: 25%;
+    margin: 0 auto;
+ }
+
+#your-favourite-fortnite-skin {
+    text-align: center;
+}
+
+.solid-submit, .solid-reset {
+ font-size: 18px;
+ margin-top: 10px;
+ background-color: #9d4dbb;
+ color: #ffffff;
+ border: 2px solid #000;
+}
+    /* about */
+ #background-about {
+     text-align: left;
+     margin-left:8px;
+ }
