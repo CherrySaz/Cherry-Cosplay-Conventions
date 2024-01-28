@@ -231,7 +231,7 @@ animation-fill-mode: forwards;
 
    @media screen and (max-width:1200px) {
        #meetup-info {
-           width: 65%%;
+           width: 65%;
            height: 1200px;
            margin: 0 auto;
            text-align: center;
@@ -286,13 +286,13 @@ animation-fill-mode: forwards;
 /* For smaller devices*/
 
 
-@media screen and (max-width: 767px) {
-    #meetup-info {
-        width: 90%;
-        height: auto;
-        margin: 0 auto;
-    }
-
+@media screen and (max-width: 768px) {
+    #menu {
+        height: 1200;
+        margin-left: 90px;
+        margin-bottom: 20px;
+        line-height: 25px;
+   }
 
     #meetup-info div {
         width: 100%;
