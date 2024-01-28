@@ -1,6 +1,6 @@
 # Welcome to my very first website!
 
-<img src="assets/images/Responsive screenshot.png" alt="Homepage">
+<img src="assets/images/Responsive-screenshot.png" alt="Homepage">
 
 ### Overview
 My very first website, Cherry Cosplay Conventions, is a website aimed at gamers, and people who enjoy cosplay and meeting up. Specifically designed for players of the iconic video game 'Fortnite' by Epic Games, it is targeted at people of any age group, young or old and who love to dress up.
@@ -18,6 +18,9 @@ All of the menu links on the navigation bar appear on every page.
 The website logo also appears on every page and is clcikable. When clicked, this will take you back to the home screen no matter which page you are on.
 
 Colourful and easy to navigate, grabbing interest of Fortnite gamers in particular by using colours from the Fortnite colour palette, a simple but effective first website.
+
+<img src="assets/images/homepage.png" alt="Website homescreen">
+
 
 
 # User Experience (UX)
@@ -50,12 +53,45 @@ Providing the user with an opportunity to register interest to keep up to date w
 
 Testing and validation carried out for all HTML pages with no errors returned via [W3C](https://validator.w3.org/)
 
+<img src="docs/W3-validator-screenshot.png" alt="W3 validator">
+
+
 
 Testing and validation carried out for  CSS  with no errors returned via [W3C](https://jigsaw.w3.org/css-validator/)
+
+<img src="assets/images/w3c-css-validation.png" alt="W3c CSS validator">
+
+My website was also put through Lighthouse tool in Chrome for Developers. All pages returned 100% accessability.
+
+<img src="assets/images/lighthouse-100.png" alt="Lighthouse score">
+
 
 ### Bugs
 
 There were a few challenges i faced within the code itself prior to validating which were simple errors and fixed quickly. My biggest challenge was not realising that i had included /* /* in my css stylesheet as a header note above some style instructions instead of /* */ , resulting in my instructions not being applied, however, this was resolved.
+
+## Further bugs
+
+On going back to revisit my project, I had other bugs to fix which were:
+
+• fixing the submit and reset buttons so they work correctly
+
+• Adjusting colours to make the site 'easier on the eye'. The background was changed from the Llama purple colour to an off white colour. I had changed it to white initially during the fix, however, I found even though a neautral colour, it was actually too bright so i decided to tone it down slightly.
+
+• General tidying up to improve the overall accessability of the website.
+
+• Added menu icons to enable easier use for visually impaired and any other users who may have struggles.
+
+•Revisting media queries for a better view on smaller devices. This did mean that the layout would appear slightly different as you'd expect, but the goal here was to make it accessible, and to ensure no text was missing off the screen.
+
+### Examples of layout on an iphone 14 pro max and an ipad Air are shown here:
+
+<img src="assets/images/iphone-14-pm-responsive-layout.png" alt="iphone 14 pro max">
+
+
+<img src="assets/images/ipadairscreenshot.jpg" alt="ipad Air responsive screenshot">
+
+
 
 ### Deployment
 
